@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+.env
+
+# Database
+*.db
+
+# Models
+*.pkl
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+
+# Optional datasets
+data/raw/
+data/processed/
