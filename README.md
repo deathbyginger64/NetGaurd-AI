@@ -407,6 +407,7 @@ This is an unsupervised learning system — no labelled attack data is required
 - Detection metrics (TP, FP, precision, detection rate) are estimated using model confidence levels as a proxy
 - Change the network interface (`wlan0` / `eth0`) in capture and IDS scripts to match your system's active interface
 - Root / sudo is required for Scapy to access the network interface
+- ⚠️ Note: This system is trained on self-captured network traffic to simulate real-world anomaly detection scenarios.
 
 <br/>
 
